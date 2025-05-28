@@ -17,7 +17,7 @@ token | Github auth token (default variable for each action session) | `${{ secr
 * *latest* - Get the *really* latest release with no matter is it stable or prerelease
 * *nodraft* - Get the *really* latest release excluding drafts
 * *prerelease-nodraft* - Get the latest `prerelease` excluding drafts
-* *prerelease-nodraft* - Get the latest `draft` release
+* *draft* - Get the latest `draft` release
 
 ### Outputs
 Action outputs 3 variables
