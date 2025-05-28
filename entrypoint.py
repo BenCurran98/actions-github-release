@@ -40,5 +40,13 @@ for release in releases:
         if release.draft == 0:
             output(release)
             break
+    elif wanted_release == 'prerelease-nodraft':
+        if release.prerelease == 1 and release.draft == 0:
+            output(release)
+            break
+    elif wanted_release == "draft":
+        if release.draft == 1:
+            output(release)
+            break
     else:
         print('Can\'t get release')
